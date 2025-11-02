@@ -1,0 +1,65 @@
+/* Mengatur warna latar belakang dan teks dasar untuk navbar */
+.navbar-custom {
+  background-color: #000000; /* Hitam solid */
+  padding: 15px 0;
+}
+
+/* Styling untuk brand/logo */
+.navbar-custom .navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.navbar-custom .navbar-brand .brand-highlight {
+  color: #ff9900; /* Warna oranye untuk "Padang" */
+}
+
+/* Styling untuk info kontak */
+.contact-info {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-left: 2rem;
+  border-left: 1px solid #444;
+  padding-left: 2rem;
+}
+.contact-info .icon {
+  font-size: 2rem;
+  color: #ff9900;
+  margin-right: 10px;
+}
+.contact-info div {
+  display: flex;
+  flex-direction: column;
+}
+.contact-info span {
+  line-height: 1.2;
+}
+.contact-info .label {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+/* Styling untuk link navigasi */
+.navbar-custom .nav-link {
+  color: #ffffff;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Styling untuk link yang aktif atau saat di-hover */
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+  color: #ff9900; /* Warna oranye */
+}
+
+/* Styling untuk ikon pencarian */
+.search-icon {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.search-icon:hover {
+  color: #ff9900;
+}

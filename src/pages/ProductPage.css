@@ -1,0 +1,29 @@
+.menu-section {
+  padding: 5rem 0;
+  background-color: #212529; /* Latar belakang abu-abu gelap */
+  color: #ffffff; /* Teks putih */
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section-subtitle {
+  max-width: 600px;
+  margin: 0 auto 4rem auto;
+  text-align: center;
+  color: #ced4da; /* Abu-abu terang */
+}
+
+/* Override kecil untuk ProductCard agar cocok di latar gelap */
+.menu-section .product-card {
+    background-color: #ffffff; /* Pastikan kartu tetap putih */
+    color: #212529; /* Pastikan teks di dalam kartu menjadi gelap */
+}
+
+.menu-section .product-card .product-title {
+    color: #212529; /* Teks judul gelap */
+}

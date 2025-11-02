@@ -1,0 +1,52 @@
+.hero-section {
+  background-color: #000000; /* Latar belakang hitam */
+  color: #ffffff; /* Teks putih */
+  padding: 10rem 0; /* Padding atas-bawah yang besar */
+  position: relative; /* Diperlukan untuk panah navigasi */
+}
+
+.hero-subtitle {
+  color: #ff9900; /* Warna oranye */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: 4.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.hero-button {
+  background-color: #ff9900;
+  border: none;
+  font-weight: bold;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+}
+
+.hero-button:hover {
+  background-color: #e68a00;
+}
+
+/* Styling untuk ikon sosial media */
+.social-icons {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Jarak antar ikon */
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.social-icons a:hover {
+  color: #ff9900;
+}

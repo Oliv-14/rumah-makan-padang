@@ -1,0 +1,45 @@
+.main-footer {
+  background-color: #212529; /* Latar abu-abu gelap yang konsisten */
+  color: #ced4da; /* Teks abu-abu terang */
+  padding: 4rem 0 2rem 0; /* Padding atas lebih besar, bawah lebih kecil */
+  text-align: center;
+}
+
+.footer-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff; /* Teks putih */
+  margin-bottom: 0.5rem;
+}
+
+.footer-brand .brand-highlight {
+  color: #ff9900; /* Warna oranye */
+}
+
+.footer-tagline {
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.footer-social-icons {
+  margin-bottom: 2rem;
+}
+
+.footer-social-icons a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: 0 1rem; /* Jarak antar ikon */
+  transition: color 0.3s ease;
+}
+
+.footer-social-icons a:hover {
+  color: #ff9900;
+}
+
+.footer-copyright {
+  font-size: 0.9rem;
+  color: #6c757d; /* Abu-abu lebih gelap untuk copyright */
+  border-top: 1px solid #343a40; /* Garis pemisah tipis */
+  padding-top: 2rem;
+  margin-top: 2rem;
+}

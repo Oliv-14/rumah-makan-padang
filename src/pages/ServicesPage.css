@@ -1,0 +1,58 @@
+.services-section {
+  padding: 5rem 0;
+  background-color: #f8f9fa; /* Latar belakang abu-abu sangat terang */
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section-subtitle {
+  max-width: 600px;
+  margin: 0 auto 4rem auto; /* Margin bawah lebih besar */
+  text-align: center;
+  color: #6c757d; /* Abu-abu Bootstrap */
+}
+
+.service-card {
+  border: none; /* Hilangkan border default Card */
+  border-radius: 15px; /* Sudut lebih melengkung */
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  text-align: center;
+  height: 100%; /* Agar semua kartu sama tinggi */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.service-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem auto;
+  border-radius: 50%; /* Membuatnya menjadi lingkaran */
+  background-color: #fff3e0; /* Warna krem oranye */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: #ff9900; /* Warna oranye utama */
+}
+
+.service-card .card-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.service-card .card-text {
+  color: #6c757d;
+}

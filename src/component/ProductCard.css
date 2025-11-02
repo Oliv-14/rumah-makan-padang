@@ -1,0 +1,28 @@
+.product-card {
+  border: 1px solid #eee;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+.product-image {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+.product-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.product-price {
+  color: #ff9900;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.product-rating {
+  font-size: 1rem;
+}

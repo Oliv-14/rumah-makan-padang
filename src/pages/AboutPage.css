@@ -1,0 +1,35 @@
+.about-section {
+  background-color: #212529; /* Warna abu-abu sangat gelap, cocok dengan header */
+  color: #f8f9fa; /* Teks putih lembut */
+  padding: 6rem 0;
+  min-height: 80vh; /* Agar section memenuhi tinggi layar */
+  display: flex;
+  align-items: center; /* Memusatkan konten secara vertikal */
+}
+
+.about-subtitle {
+  color: #ff9900; /* Warna oranye khas kita */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 0.5rem;
+}
+
+.about-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ced4da; /* Warna abu-abu terang untuk teks */
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Memastikan gambar memenuhi area tanpa distorsi */
+  border-radius: 15px; /* Sedikit sudut melengkung */
+}
