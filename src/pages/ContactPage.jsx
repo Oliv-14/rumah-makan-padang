@@ -41,15 +41,10 @@ function ContactPage() {
             </div>
           </Col>
 
-          {/* ========== KOLOM KANAN: FORM ========== */}
           <Col lg={7} md={12}>
             <Form className="contact-form">
               <Form.Group className="mb-3" controlId="formName">
                 <Form.Control type="text" placeholder="Nama Anda" />
-              </Form.Group>
-
-              <Form.Group className="mb-3" controlId="formEmail">
-                <Form.Control type="email" placeholder="Email Anda" />
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formMessage">
