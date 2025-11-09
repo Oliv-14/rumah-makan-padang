@@ -16,31 +16,31 @@ function GalleryPage() {
   // Data gambar. Sekarang hanya butuh 'src'.
   const photos = [
     {
-      src: "https://cdn0-production-images-kly.akamaized.net/msy8OctlAp0x0F83cSb8558rSU4=/1x16:1000x579/469x260/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3386754/original/012310700_1614242493-shutterstock_1688670580.jpg",
+      src: "/images/fotbar.jpg",
     },
     {
-      src: "https://akcdn.detik.net.id/visual/2021/05/17/ayam-bakar-padang_169.jpeg?w=750&q=90",
+      src: "/images/abgsndr.jpg",
     },
     {
-      src: "https://katasumbar.com/wp-content/uploads/2022/06/043061400_1600750232-shutterstock_1786027046.webp",
+      src: "/images/fotbar2.jpg",
     },
     {
-      src: "https://buckets.sasa.co.id/v1/AUTH_Assets/Assets/p/website/medias/page_medias/Screen_Shot_2021-11-29_at_16_40_14.png",
+      src: "/images/terong.jpg",
     },
     {
-      src: "https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/995/2025/01/25/Resep-Gulai-Kepala-Ikan-3868526217.jpg",
+      src: "/images/ikan.jpg",
     },
     {
-      src: "https://3.bp.blogspot.com/-YAqU5JO3sAo/XL56umIAsiI/AAAAAAAAFmo/_frpLhy7wa8S7AXlXexd5vkiBUJwy_pUgCK4BGAYYCw/s1600/resep-paru-goreng.JPG",
+      src: "/images/telur.jpg",
     },
     {
-      src: "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/247/2025/05/06/Gulai-Cincang-1625896331.jpg",
+      src: "/images/ayam.jpg",
     },
     {
-      src: "https://asset.kompas.com/crops/T-xKoNscDfJL6D9yvC9pPpd4YnI=/0x333:1000x1000/1200x800/data/photo/2020/08/02/5f26b02a99288.jpg",
+      src: "/images/rendang.jpg",
     },
     {
-      src: "https://pict.sindonews.net/dyn/732/pena/news/2020/11/12/185/229188/bingung-makan-apa-siang-ini-bikin-aja-ikan-pindang-asam-padeh-fkg.jpg",
+      src: "/images/perkedel.jpg",
     },
   ];
 
@@ -59,7 +59,7 @@ function GalleryPage() {
             Padang Delights.
           </p>
 
-          <Row xs={1} sm={2} lg={3} className="g-4">
+          <Row xs={1} sm={2} lg={3} className="g-5">
             {photos.map((photo, idx) => (
               <Col
                 key={idx}

@@ -32,4 +32,5 @@
   height: 100%;
   object-fit: cover; /* Memastikan gambar memenuhi area tanpa distorsi */
   border-radius: 15px; /* Sedikit sudut melengkung */
+  margin-left: 55px;
 }
