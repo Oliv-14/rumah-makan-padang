@@ -1,38 +1,38 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProductCard from "./ProductCard.jsx";
 import "./BestSeller.css";
+import rendang from "../public/images/rendang.jpg";
+import ayamgoreng from "../public/images/ayam.jpg";
+import ikangoreng from "../public/images/ikan.jpg";
+import telurdadar from "../public/images/telur.jpg";
 
 function BestSeller() {
   // Data produk (nanti bisa diambil dari API)
   const products = [
     {
       id: 1,
-      // 👇 PERUBAHAN DI SINI
-      image: `${import.meta.env.BASE_URL}images/rendang.jpg`,
+      image: rendang,
       title: "Rendang Sapi",
       price: "Rp 15.000",
       rating: 5,
     },
     {
       id: 2,
-      // 👇 PERUBAHAN DI SINI
-      image: `${import.meta.env.BASE_URL}images/ayam.jpg`,
+      image: ayamgoreng,
       title: "Ayam Goreng",
       price: "Rp 12.000",
       rating: 5,
     },
     {
       id: 3,
-      // 👇 PERUBAHAN DI SINI
-      image: `${import.meta.env.BASE_URL}images/ikan.jpg`,
+      image: ikangoreng,
       title: "Ikan Goreng",
       price: "Rp 12.000",
       rating: 5,
     },
     {
       id: 4,
-      // 👇 PERUBAHAN DI SINI
-      image: `${import.meta.env.BASE_URL}images/telur.jpg`,
+      image: telurdadar,
       title: "Telur Dadar",
       price: "Rp 10.000",
       rating: 4,
@@ -51,11 +51,6 @@ function BestSeller() {
 
         {/* Membuat Grid untuk Produk */}
         <Row xs={1} md={2} lg={4} className="g-4">
-          {/* `xs={1}`: 1 kolom di layar extra small */}
-          {/* `md={2}`: 2 kolom di layar medium */}
-          {/* `lg={4}`: 4 kolom di layar large */}
-          {/* `g-4`: gap (jarak) antar kolom sebesar 4 unit */}
-
           {products.map((product) => (
             <Col key={product.id}>
               <ProductCard
