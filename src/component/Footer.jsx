@@ -21,7 +21,7 @@ function Footer() {
       </Container>
       <Container>
         <div className="footer-copyright">
-          © {currentYear} Padang Delights. All Rights Reserved.
+          © {currentYear} RM Putri Sulung. All Rights Reserved.
         </div>
       </Container>
     </footer>
