@@ -64,19 +64,6 @@ function Hero() {
           </Carousel.Item>
         ))}
       </Carousel>
-
-      {/* Pindahkan social icons keluar dari Carousel supaya bukan dianggap slide */}
-      <div className="social-icons">
-        <a href="#twitter">
-          <FaTwitter />
-        </a>
-        <a href="#instagram">
-          <FaInstagram />
-        </a>
-        <a href="#linkedin">
-          <FaLinkedinIn />
-        </a>
-      </div>
     </>
   );
 }

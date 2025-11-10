@@ -17,11 +17,6 @@ function Footer() {
           <p className="footer-tagline">
             Menyajikan Cita Rasa Minang Asli Sejak 2024.
           </p>
-          <div className="footer-social-icons">
-            <a href="#twitter" aria-label="Twitter"><FaTwitter /></a>
-            <a href="#instagram" aria-label="Instagram"><FaInstagram /></a>
-            <a href="#linkedin" aria-label="LinkedIn"><FaLinkedinIn /></a>
-          </div>
         </div>
       </Container>
       <Container>
