@@ -25,7 +25,10 @@ function ContactPage() {
     
     // Format pesan baru
     // %0A adalah kode untuk baris baru.
-    const message = `Halo, nama saya ${formData.name}.%0A%0ASaya ingin bertanya tentang:%0A${formData.message}`;
+    const message = `Halo, nama saya ${formData.name}.
+    
+    Saya ingin bertanya tentang:
+    ${formData.message}`;
     
     // Buat URL WhatsApp
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
