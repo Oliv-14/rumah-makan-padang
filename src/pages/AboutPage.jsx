@@ -5,12 +5,7 @@ function AboutPage() {
   return (
     <section className="about-section">
       <Container>
-        {/* `align-items-center`: Membuat kedua kolom sejajar di tengah secara vertikal */}
         <Row className="align-items-center">
-          {/* Kolom Kiri untuk Teks */}
-          {/* `lg={6}`: Di layar besar, kolom ini akan memakan 6 dari 12 grid (setengah layar) */}
-          {/* `md={12}`: Di layar medium, kolom ini akan memakan 12 grid (lebar penuh) */}
-          {/* `mb-4 mb-lg-0`: Memberi margin-bottom 4, tapi dihilangkan di layar besar */}
           <Col lg={6} md={12} className="mb-4 mb-lg-0">
             <p className="about-subtitle">TENTANG KAMI</p>
             <h2 className="about-title">
@@ -30,14 +25,9 @@ function AboutPage() {
               Selamat menikmati!
             </p>
           </Col>
-
-          {/* Kolom Kanan untuk Gambar */}
-          {/* `lg={6}`: Di layar besar, kolom ini juga memakan setengah layar */}
-          {/* `md={12}`: Di layar medium, kolom ini juga akan menjadi lebar penuh dan berada di bawah teks */}
           <Col lg={5} md={12}>
-            {/* Ganti dengan URL gambar Anda sendiri */}
             <Image
-              src="/images/RMPutriSulung.jpg"
+              src={`${import.meta.env.BASE_URL}/images/RMPutriSulung.jpg`}
               alt="Pemilik Padang Delights"
               className="about-image"
               fluid

@@ -1,38 +1,34 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProductCard from "./ProductCard.jsx";
 import "./BestSeller.css";
-import rendang from "../public/images/rendang.jpg";
-import ayamgoreng from "../public/images/ayam.jpg";
-import ikangoreng from "../public/images/ikan.jpg";
-import telurdadar from "../public/images/telur.jpg";
 
 function BestSeller() {
   // Data produk (nanti bisa diambil dari API)
   const products = [
     {
       id: 1,
-      image: rendang,
+      image: `${import.meta.env.BASE_URL}images/rendang.jpg`,
       title: "Rendang Sapi",
       price: "Rp 15.000",
       rating: 5,
     },
     {
       id: 2,
-      image: ayamgoreng,
+      image: `${import.meta.env.BASE_URL}images/ayam.jpg`,
       title: "Ayam Goreng",
       price: "Rp 12.000",
       rating: 5,
     },
     {
       id: 3,
-      image: ikangoreng,
+      image: `${import.meta.env.BASE_URL}images/ikan.jpg`,
       title: "Ikan Goreng",
       price: "Rp 12.000",
       rating: 5,
     },
     {
       id: 4,
-      image: telurdadar,
+      image: `${import.meta.env.BASE_URL}images/telur.jpg`,
       title: "Telur Dadar",
       price: "Rp 10.000",
       rating: 4,

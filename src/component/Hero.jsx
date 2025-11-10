@@ -10,17 +10,17 @@ function Hero() {
 
   const slides = [
     {
-      image: "/images/image.png",
+      image: `${import.meta.env.BASE_URL}/images/image.png`,
       subtitle: "RUMAH MAKAN PADANG TERBAIK",
       title: "Masakan Asli dari<br/>Dapur Minang<br/>Terbaik",
     },
     {
-      image: "/images/nasi.jpg",
+      image: `${import.meta.env.BASE_URL}/images/nasi.jpg`,
       subtitle: "RESEP WARISAN LELUHUR",
       title: "Rasa Otentik<br/>Turun Temurun<br/>Sejak Dulu",
     },
     {
-      image: "/images/Nasi-Padang.jpg",
+      image: `${import.meta.env.BASE_URL}/images/Nasi-Padang.jpg`,
       subtitle: "BAHAN-BAHAN KUALITAS TERBAIK",
       title: "Selalu Segar<br/>Setiap Hari<br/>Untuk Anda",
     },

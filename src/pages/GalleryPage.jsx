@@ -2,39 +2,39 @@ import React, { useState } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import "./GalleryPage.css"; 
+import "./GalleryPage.css";
 
 function GalleryPage() {
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
-  
+
   const photos = [
     {
-      src: "/images/fotbar.jpg",
+      src: `${import.meta.env.BASE_URL}/images/fotbar.jpg`,
     },
     {
-      src: "/images/abgsndr.jpg",
+      src: `${import.meta.env.BASE_URL}/images/abgsndr.jpg`,
     },
     {
-      src: "/images/fotbar2.jpg",
+      src: `${import.meta.env.BASE_URL}/images/fotbar2.jpg`,
     },
     {
-      src: "/images/terong.jpg",
+      src: `${import.meta.env.BASE_URL}/images/terong.jpg`,
     },
     {
-      src: "/images/ikan.jpg",
+      src: `${import.meta.env.BASE_URL}/images/ikan.jpg`,
     },
     {
-      src: "/images/telur.jpg",
+      src: `${import.meta.env.BASE_URL}/images/telur.jpg`,
     },
     {
-      src: "/images/ayam.jpg",
+      src: `${import.meta.env.BASE_URL}/images/ayam.jpg`,
     },
     {
-      src: "/images/rendang.jpg",
+      src: `${import.meta.env.BASE_URL}/images/rendang.jpg`,
     },
     {
-      src: "/images/perkedel.jpg",
+      src: `${import.meta.env.BASE_URL}/images/perkedel.jpg`,
     },
   ];
 
